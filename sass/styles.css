@@ -1,0 +1,28 @@
+body {
+  background-color: #f9f6fa;
+}
+body .button__container {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+body .button__container #icon__temp {
+  background-color: #ff6c87;
+  height: 50vh;
+  width: 50vh;
+}
+body .button__container .button__innner__container {
+  height: 100%;
+  width: 50%;
+}
+body .button__container .button__innner__container #icon__fan {
+  background-color: #4fd294;
+  height: 25vh;
+  width: 50%;
+}
+body .button__container .button__innner__container #icon_lights {
+  background-color: #bae6ff;
+  height: 25vh;
+  width: 50%;
+}

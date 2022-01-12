@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+body{
+
+    background-color:  $background-color1;
+    
+    .button__container{
+        height : 50vh;
+        width : 100vw;
+        display: flex;
+        flex-direction: row;
+    
+        #icon__temp{
+            background-color:  $color1;
+            height : 50vh;
+            width :50vh;
+        }
+        .button__innner__container{
+            height:100%;
+            width :50%;
+
+            #icon__fan{
+                background-color:  $color2;
+                height : 25vh;
+                width :50%;
+            }
+        
+            #icon_lights{
+                background-color:  $color3;
+                height : 25vh;
+                width :50%;
+            }
+        }
+
+    }
+
+}
