@@ -10,10 +10,21 @@ body{
         display: flex;
         flex-direction: row;
     
-        #icon__temp{
+        #icon__temp__container{
+            display:flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
             background-color:  $color1;
             height : 50vh;
-            width :50vh;
+            width :50vh
+            ;
+
+            .icon__temp {
+                height: 100px;
+                width: 200px;
+
+            }
         }
         .button__innner__container{
             height:100%;
