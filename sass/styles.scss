@@ -2,44 +2,60 @@
 
 body{
 
+    font-family: 'Roboto', sans-serif;
+
     background-color:  $background-color1;
     
+    .material-icons{
+        font-size: 30vw;
+        color: $background-color1;
+    }    
+    h1{
+        font-size: 9vw;
+        color: $background-color1;
+        margin: 0;
+    }
+    
+
     .button__container{
-        height : 50vh;
-        width : 100vw;
         display: flex;
         flex-direction: row;
     
         #icon__temp__container{
-            display:flex;
+            height:100vh;
+            width :50vw;
+            display: flex;
             flex-direction: column;
-            justify-items: center;
+            justify-content: center;
             align-items: center;
             background-color:  $color1;
-            height : 50vh;
-            width :50vh
-            ;
 
-            .icon__temp {
-                height: 100px;
-                width: 200px;
 
-            }
         }
         .button__innner__container{
-            height:100%;
-            width :50%;
+            height:100vh;
+            width :50vw;
 
-            #icon__fan{
+
+            .button__innner__container__fan{
                 background-color:  $color2;
-                height : 25vh;
-                width :50%;
+                height:50vh;
+                width :50vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
             }
-        
-            #icon_lights{
+
+            .button__innner__container__lights{
                 background-color:  $color3;
-                height : 25vh;
-                width :50%;
+                height:50vh;
+                width :50vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
         }
 

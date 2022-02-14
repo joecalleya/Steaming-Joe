@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f6fa;
+}
+
+body .material-icons {
+  font-size: 30vw;
+  color: #f9f6fa;
+}
+
+body h1 {
+  font-size: 9vw;
+  color: #f9f6fa;
+  margin: 0;
+}
+
+body .button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .button__container #icon__temp__container {
+  height: 100vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff6c87;
+}
+
+body .button__container .button__innner__container {
+  height: 100vh;
+  width: 50vw;
+}
+
+body .button__container .button__innner__container .button__innner__container__fan {
+  background-color: #4fd294;
+  height: 50vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .button__container .button__innner__container .button__innner__container__lights {
+  background-color: #bae6ff;
+  height: 50vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.css.map */
