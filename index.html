@@ -14,26 +14,21 @@
 </head>
 
 <body>
-    <div class='button__container'>
-        <div id="icon__temp__container">
-            <h1 id="icon__temp"></h1>
-            <span class="material-icons">
-                thermostat
-            </span>
-        </div>
-        <div class='button__innner__container'>
-            <div class="button__innner__container__fan" onclick=toggleFan()>
-                <h1 id="icon__fan"></h1>
-                <span class="material-icons">air</span>
-            </div>
-            <div class="button__innner__container__lights"  onclick=toggleLight()>
-                <h1 id="icon__light"></h1>
-
-                <span class="material-icons">
-                    lightbulb
-                </span>
-            </div>
-        </div>
+    <div class="button__innner__container__temp">
+        <h1 id="icon__temp"></h1>
+        <span class="material-icons">thermostat</span>
+    </div>
+    <div class="button__innner__container__heat" onclick=toggleHeat()>
+        <h1 id="icon__heat"></h1>
+        <span class="material-icons">local_fire_department</span>
+    </div>
+    <div class="button__innner__container__fan" onclick=toggleFan()>
+        <h1 id="icon__fan"></h1>
+        <span class="material-icons">air</span>
+    </div>
+    <div class="button__innner__container__lights"  onclick=toggleLight()>
+        <h1 id="icon__light"></h1>
+        <span class="material-icons">lightbulb</span>    
     </div>
 </body>
 

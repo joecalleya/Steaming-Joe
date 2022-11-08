@@ -19,7 +19,7 @@ const getData = (url, options) => {
         document.getElementById("icon__temp").innerText = data.temperature;
         document.getElementById("icon__fan").innerText = isFanActiveText(data.isFanActive);
         document.getElementById("icon__light").innerText = isLightActiveText(data.isLightActive);
-    
+        document.getElementById("icon__heat").innerText = isHeattActiveText(data.isHeatActive);
     }
         )
     .catch(error =>
@@ -37,7 +37,12 @@ const getData = (url, options) => {
         getData(url,options)
 
     }
+    const toggleHeat = () => {
+        console.log("toggleHeat & refresh")
+        fetch(url + 'heat')
+        getData(url,options)
 
+    }  
     const toggleLight = () => {
         console.log("toggleLight & refresh")
         fetch(url + 'light')
@@ -51,4 +56,8 @@ const getData = (url, options) => {
     const isLightActiveText = (isLightActive) => {
         if (isLightActive) {return "Light On"}
         else {return "Light Off"}
+    }
+    const isHeattActiveText = (isHeatActive) => {
+        if (isHeatActive) {return "Battery Heat On"}
+        else {return "Battery Heat Off"}
     }
